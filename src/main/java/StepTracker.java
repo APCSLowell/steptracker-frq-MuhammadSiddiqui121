@@ -6,8 +6,8 @@ public class StepTracker
  private int totaldays;
  private int minsteps
  private int totalsteps;
- public Steptracker( int goal){
-  minsteps = goals;
+ public StepTracker( int goal){
+  minsteps = goal;
   totalsteps = 0;
   activedays =0;
   totaldays =0;
